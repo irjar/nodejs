@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bigfoot2019",
+  "private_key_id": "54f94fc07ed861e6111690a1b18d5349c7d48135",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDmZEidmOEQUsVJ\nv9xLFwSsifdL3LpwUUS1kLWhGESmzBAObTBup66dja/MKnAN+n+ry08vvpr1nOY9\nesHe6/cJhLywoOy+eaYe7AkA1ie7/m8nt50YTNT02/zUI7yyZSHBwebyGMek5MhU\nNtrmRVf653vDs83X1EOIWad7zaBVxOm77P9sSZOVTkOO0kwpb7lEwmQOpzitCsNu\nnQp7iS8i11dCo2YOCAJFPeLobGs5oA6n0c8wex6wr7wooRbTqLkvodARjFtehycP\n/OKKK38i/oEIitUCbZOfOi6nG8NY/K/vIjlg/Q9oKUkTXNL6WfWY+xzOcwUUh5Xj\norcWpKgrAgMBAAECggEAV0s1Bl2YHSa3cNecwOjSUQufYyOZkpgASCkx4H2A+ZAF\nH2o4uRyYuUKnktybg3hf6nhIoyb9sMVHqZC7J1tRyU39bpEy0oLmMf4t9R6vhHgF\nps9X2w61e6dktv5pb1CJR1BQUHeaIXy7+MimDSzGBp+x0bdtbXMUOXP61RpWv1f6\nNPUCfGfuj+OAfX/vPp57OPi1dkNPxTnla93JpdDQWVCB4szbkiP4KrRgYBYDZECX\n1ptaFnNZwaPJQHIyfRLk358s+rbgz++Xv57sQZgjiBcnfF1V0lYJWXM0vbPSYrNy\nK0A02R09rAbFLV0paMkigXBmxCUS696XLJaH43jrWQKBgQD6mdSijmX8Uhcyf0kJ\n51OupwEyty94NC0gIpjgNC9hiaiD5M1FnfvhuTVwvvyOcnGne+G7h79E2Km4aCOY\n4/NxoZrSlSgYiBi+5KdoAjlr/huZA2F22WvNlGUV1aH8pNMRlNzzGuSDcjviH+nB\nT9yGAwZV8Hmm182DTLuHVJHm8wKBgQDrWv2xVU9PUyclF411GVKoWMEEpny3LC6e\nC/TEjc+2BO3H8hREuiLV9MGdIdcLjfqvPkF70A9ZuluFzGyIk/8DdI/3U74o1sm2\nAkOo8waylpZ3Qo0gKY4G7323iKN2MQxbPwN7xthQz/fqbSzdHntHN9zI10OnBdQm\nZwdjcyf36QKBgB/Cs1JO3doWxV3fB/C7Yr216M72rIt9gWKbP+jadE7WVYcxzlpO\nZYf8IyvA6N1c386sQrWzxKgDFa+Lc0eDTG1QYADkaoqBZTF8ZUMnVQO81t6TsRyQ\n/bq2XgFgbAFLGn0V8tLUy7VlGvXTuZqIdph9daYarjBZFXDYnsPOEhfFAoGBAKXa\nBiK8Mlp9B33M/iNByAzYFpTXWdWe7e70D/We1Xu4N3QKNJxF6xyJERNQ8IC0+a4a\nmfzNHrQlbi94YhdQ64kc0AMDYWLYEWcQa2uYbuTU142NOXQrtGlQxW/bew1j/Qgj\n/Klx86fnFhZ9/vqHa2pBhHWHtKXzpo+1VPCRCt5ZAoGAWsSXe+Z6/hNHqHWspMri\n/utctf7gJl16485vVfrkqycZYjWnM8CizoJ6x0x6ehgOGwgBARLLk0gW7t7f0m5D\nBLt+9xn1f3mv61SUL6y0NlS9NKZqogxNrLYzrUJzl3IiJonuQMgnWQbIIoTwOliL\n2EIl9g4lzS4urkyvXc6ledc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bigfoot2019-admin@bigfoot2019.iam.gserviceaccount.com",
+  "client_id": "105691431606553803743",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bigfoot2019-admin%40bigfoot2019.iam.gserviceaccount.com"
+}

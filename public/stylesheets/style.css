@@ -1,0 +1,997 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: rgb(255,245,243); 
+	width: 100%; margin: 0%;    
+}
+
+html, body {
+	overflow-x: hidden; 
+}
+
+.container{
+	border: 0px; margin: 0px; padding: 0px;
+}
+.nav.navbar-nav.navbar-left li a:hover, .nav.navbar-nav.navbar-left li.active a{
+    color: rgb(255,245,243) !important; background-color: rgb(68,93,108) !important; border-radius: 5px;
+	
+}
+
+
+.nav.navbar-nav.navbar-left li a:focus{
+	color: rgb(255,245,243) !important; background-color: rgb(68,93,108) !important; border-radius: 5px;
+}
+
+
+
+.nav.navbar-nav.navbar-left li a{
+    color: rgb(68,93,108); padding-right: 10px; padding-left: 10px; margin: 1px;
+	
+}
+
+
+
+body.index a.index, 
+body.tickets a.tickets,
+body.bands a.bands, 
+body.vendors a.vendors, 
+body.gallery a.gallery, 
+body.shop a.shop, 
+body.connect a.connect
+{
+/**your custom styles here
+*
+**/
+   color: rgb(255,245,243) !important;	background-color: rgb(68,93,108)!important; border-radius: 5px;
+}
+
+
+
+
+
+.navbar-toggle{
+	margin-right: 18px;
+}
+
+.container-fluid{
+    padding-right:0px; padding-left:0px; margin-top: 0px; margin-bottom: 0px;
+	margin-right:auto;
+    margin-left:auto;	
+}
+
+.row .logo img{
+	width:200px; height: auto; margin-bottom: 20px; margin-top: 5px; 
+}
+
+.nav.navbar-nav.navbar-left{
+	margin-bottom: 3px; 
+}
+
+
+
+.nav.navbar-nav.nav.navbar-nav.pull-right li a:hover{
+	color: rgb(167,195,144) !important; background-color: transparent;
+}
+
+.nav.navbar-nav.nav.navbar-nav.pull-right li a:focus{
+	outline: none !important; background-color: transparent;
+}
+
+.rightbox{
+	margin-left: 10px; position:relative; 
+}
+
+.nav.navbar-nav.nav.navbar-nav.pull-right.nav>li>a{
+	padding-bottom: 0px; color: rgb(68,93,108); text-align: right; font-size: 12px; 
+	padding-top: 0px; padding-right: 2px; 
+}
+
+#myNavbar.navbar-collapse.collapse.in ul li{
+	padding-left: 15px;
+}
+
+#map {
+      height: 400px;  /* Set the height is 400 px */
+      width: 100%;  /* Set the width */
+      }
+
+.bands .jumbotron, .vendors .jumbotron{
+    border-radius: 0 !important; background-color: rgb(255,245,243); padding-left: 13px; padding-top: 1px;
+	padding-bottom: 1px; color: rgb(68,93,108); text-align: center; letter-spacing: 3px;
+}
+
+.jumbotron p{
+	font-size: 12px;
+}
+
+.jumbotron h4{
+	font-weight: bold;
+}
+
+
+
+/* Remove the default margin-bottom and rounded borders in navbar */
+.navbar{
+    padding-top: 0px; padding-bottom: 0px; border: 0px; border-radius: 0px; margin-bottom: 0px;
+    font-size: 16px; letter-spacing: 3px; background-color: rgb(255,245,243);
+}
+
+h2{
+	font-weight: bold; font-size: 32px;
+}
+
+h3{
+	font-weight: bold; font-size: 18px;
+}
+
+
+
+.bg-1{ 
+    background-color: rgb(167,195,144); /* light green */
+    color: rgb(255,245,243); letter-spacing: 4px; letter-spacing: 3px
+}
+
+.bg-1 img{
+	  border-radius: 50%; display: block; margin-left: auto; margin-right: auto;
+}
+
+.bg-2{ 
+    background-color: rgb(238, 68, 38); /* red */
+    color: rgb(255,245,243); letter-spacing: 3px
+}
+
+.bg-3{ 
+    background-color: rgb(202,129,182); /* violet */
+    color: rgb(255,245,243); letter-spacing: 3px;
+}
+
+footer{
+	padding-top: 50px; font-size: 12px;	padding-left:13px; color: rgb(68,93,108);
+}
+
+.bg-4{ 
+    background-color: rgb(93,188,210); /* blue */
+	color: rgb(255,245,243); border:0px; padding-bottom: 7px;
+}
+
+.bg-4 img{
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; height: auto; 
+}
+
+#myCarousel_1.slide{
+	margin-bottom: 5px;	
+}
+.carousel-caption{
+	background-color: rgba(0, 0, 0, 0.5) 
+}
+
+#myCarousel_2.slide{
+	margin-bottom: 5px;
+}
+
+.bg-4 h3, .bg-4 #text p {
+	letter-spacing: 3px;
+}
+
+
+.row{
+	color: rgb(68,93,108); margin: auto;
+}
+
+.jumbotron .col-sm-8{
+	border-top: 7px solid rgb(255,245,243); 
+}
+
+.index .jumbotron{
+	background-color: rgb(255,245,243); /* light pink */
+}
+
+#map {
+       border-radius: 12px;
+       }
+
+footer h5.text-uppercase{
+	font-family: "Lucida Grande", "Arial", sans-serif; color: rgb(68,93,108); 
+}
+
+footer a:hover, footer a:active, footer a:focus{
+	 text-decoration: none !important; color: rgb(167,195,144);
+}
+
+footer li a{
+	color: rgb(68,93,108); 
+}
+
+#footer h5.text-uppercase{
+	margin-top: 0px; 
+}
+
+#footer h5.text-uppercase:hover{
+	color: rgb(167,195,144) !important;
+}
+
+.footer-copyright{
+	text-align: center; margin-top: 20px;
+}
+
+
+.social i.fa{
+	padding-right: 30px; font-size: 30px;
+}
+
+
+.bg-5{ 
+    color: rgb(68,93,108); padding-top: 40px; padding-bottom: 30px; /* dark grey */
+	letter-spacing: 3px 
+}
+
+
+
+
+/* Set the panel of the Tickets page to dark green */
+.tickets .panel {
+  border: 1px solid rgb(167,195,144); 
+  border-radius:5px;
+  transition: box-shadow 0.5s;
+}
+
+/* Set the shadow of the panel's boxes on the Tickets page to dark green */
+.tickets .panel:hover {
+  box-shadow: 3px 0px 20px rgba(167,195,144, 0.3); /*dark green*/
+}
+
+/* Set the border, background and font color of the panel's button on the Tickets page on hover*/
+.tickets .panel-footer .btn:hover {
+  background-color: rgb(238, 68, 38, 0.1) !important; /*Set the background to red with opacity 0.1 */
+  color: rgb(238, 68, 38);/*Set the font color to dark grey*/
+
+}
+
+.tickets .panel-footer .btn:focus {
+  outline: none;
+}
+
+/*Set the font and background colour, padding and border radius of the heading of the panel on the Tickets page*/
+.tickets .panel-heading {
+  color: rgb(255,245,243) !important; /*light pink*/
+  background-color: rgb(167,195,144) !important; /*dark green*/
+  padding: 10px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.tickets .panel-footer {
+  background-color: rgb(255, 255, 255) !important; border-top: 1px solid rgb(255,245,243);
+}
+
+.tickets .panel-footer h3 {
+  font-size: 32px; color: rgb(68,93,108);
+}
+
+.tickets .panel-footer h4 {
+  color: rgb(68,93,108);
+  font-size: 14px;
+}
+
+.tickets .panel-footer .btn {
+  margin: 15px 0;
+  background-color: rgb(238, 66, 38);
+  color: rgb(255,245,243);
+}
+
+
+
+.tickets .modal-header{
+	border: 5px solid rgb(167,195,144);border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+
+/* Add a dark gray background color to the modal header and center text */
+.tickets .modal-header, .tickets .modal-header h4, .tickets .modal-header.close {
+  background-color: rgb(167,195,144);
+  color: rgb(255,245,243) !important;
+  text-align: center;
+  font-size: 22px;
+}
+
+.tickets button.close{
+	color: rgb(255,245,243) !important ;
+}
+
+.tickets .modal-header, .tickets .modal-body {
+  padding: 30px 35px;
+}
+
+.tickets button.btn.btn-block{
+	background-color: rgb(68,93,108); color: rgb(255,245,243); 
+}
+
+.tickets button.btn.btn-block:hover {
+
+  background-color: rgb(68,93,108,0.1) !important;
+  color: rgb(68,93,108);
+}
+
+/*Change the colour of button-danger on hover to red with opacity 0.1*/
+.tickets .btn-danger:hover{
+	background-color: rgb(238, 66, 38, 0.1) !important; /*red*/
+	color: rgb(238, 66, 38);
+	border-color: transparent;	
+}
+
+/*Bands page*/
+
+/* Set the well element backgrond to blue */
+.bands .well.well-lg{
+	background-color: rgb(93,188,210); border: none; margin-top: 60px; padding: 40px;
+	text-align: center; color: rgb(255,245,243);
+}
+
+.bg-6 .jumbotron{ 
+    color: rgb(68,93,108); padding-top: 40px; padding-bottom: 30px; /* dark grey */
+	letter-spacing: 3px 
+}
+
+
+.bands .jumbotron li a{
+	color: rgb(238, 66, 38) !important;	
+}
+
+/*Set the color of tabs background and font on the Bands page*/
+.bands .jumbotron li.active>a{
+    color: rgb(255,245,243) !important;	
+	background-color: rgb(238, 66, 38) !important; /*red*/
+	border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+
+.bands .jumbotron li a:hover{
+	background-color: rgb(238, 66, 38,0.1) !important; /*red*/
+	border: none;
+}
+
+.bands .jumbotron.container {
+  padding: 60px 120px;
+}
+	
+.bands .band {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.9;
+}
+.bands .band:hover {
+  border-color: #f1f1f1;
+}
+
+.bands .jumbotron .row p{
+	margin-bottom: 0px;
+}
+
+.bands iframe{
+	margin-top: 20px;
+}
+
+/* Vendors page */
+
+/* Set the letter spacing of the paragraph in jumbotron */
+.vendors .jumbotron p{
+	letter-spacing: 1px; 
+}
+
+/**/
+/* Set the well element backgrond to blue */
+.vendors .well.well-lg{
+	background-color: rgb(202,129,182); border: none; margin-top: 60px; padding: 40px;
+	text-align: center; color: rgb(255,245,243);
+}
+	
+	
+.vendors img.img-circle{ 
+    margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/* Gallery page */
+.gallery img.img-fluid{
+	width:300px; height:300px; margin-bottom: 15px !important; border-radius: 5px; margin-left:auto; margin-right: auto; display: block;
+}
+
+
+.gallery main .row{
+	padding-top: 60px; padding-bottom: 20px
+}
+
+.gallery_img {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; 
+}
+
+.gallery_img .pics{
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; 
+}
+
+.gallery_img .animation{
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); 
+}
+
+@media (max-width: 450px){
+.gallery_img {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		-webkit-column-width: 100%;
+		-moz-column-width: 100%;
+		column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.gallery .btn.filter {
+	padding-left: 1.1px;
+	padding-right: 1.1px;
+}
+}
+
+
+
+.gallery .gallery_btn button{
+	background-color: rgb(238, 66, 38) !important; /*Set the background colour to red with opacity 0.1 */
+	color: rgb(255,245,243);
+}
+
+.gallery .gallery_btn button:hover, .gallery .gallery_btn button:focus {
+  background-color: rgb(238, 68, 38, 0.1) !important; /*Set the background colour to red with opacity 0.1 */
+  color: rgb(68,93,108); /*Set the font color to dark grey*/
+  box-shadow: none!important;
+  outline: 0;
+}
+
+/*Shop*/
+
+
+/* Set the background colour and font color of the panel's button on the Shop page on hover*/
+.shop .panel-footer .btn:hover {
+  background-color: rgb(202,129,182, 0.3) !important; /*Set the background to red with opacity 0.1 */
+  color: rgb(202,129,182); /*Set the font color to dark grey*/
+}
+
+/*Set the font and background colour, padding and border radius of the heading of the panel on the Shop page*/
+.shop .panel-heading {
+  color: (255,245,243) !important; /*light pink*/
+  background-color: transparent !important; /*dark green*/
+  padding: 10px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.shop .panel-footer {
+  background-color: transparent !important; border-color: transparent; 
+}
+
+.shop .panel-footer h3 {
+  font-size: 32px; color: rgb(68,93,108);
+}
+
+.shop .panel-footer h4 {
+  color: rgb(68,93,108);
+  font-size: 14px;
+}
+
+.shop .panel-footer .btn {
+  margin: 15px 0;
+  background-color: rgb(202,129,182);
+  color: rgb(255,245,243);
+}
+
+.shop .panel.panel-default{
+	background-color: transparent;
+	border: 0px;
+}
+
+.shop .panel-footer .btn{
+	background-color: rgb(202,129,182);
+}
+
+
+.shop img{
+	height: 200px; width:auto; margin: 2px; border-radius: 5px;
+}
+	
+.shop	#myModal{
+	border: 1px solid rgb(202,129,182);
+}
+
+.shop .modal-header{
+	border: 5px solid rgb(202,129,182);border-top-left-radius: 5px; border-top-right-radius: 5px;
+}
+
+/* Add a dark gray background color to the modal header and center text */
+.shop .modal-header, .shop .modal-header h4, .shop .modal-header.close {
+  background-color: rgb(202,129,182);
+  color: rgb(255,245,243) !important;
+  text-align: center;
+  font-size: 22px;
+}
+
+.shop button.close{
+	color: rgb(255,245,243) !important ;
+}
+
+.shop .modal-header, .modal-body {
+  padding: 30px 35px;
+}
+
+.shop button.btn.btn-block{
+	background-color: rgb(68,93,108); color: rgb(255,245,243);
+}
+
+.shop button.btn.btn-block:hover {
+  background-color: rgb(68,93,108,0.1) !important;
+  color: rgb(68,93,108);
+}
+
+/*Change the colour of button-danger to red on the Shop page*/
+.shop .btn-danger{
+background-color: rgb(202,129,182) !important; /*red*/
+border-color: rgb(202,129,182) !important; /*red*/
+}
+
+/*Change the colour of button-danger on hover to red with opacity 0.1 on the Shop page*/
+.shop .btn-danger:hover{
+	background-color: rgb(202,129,182, 0.1) !important; /*red*/
+	color: rgb(202,129,182);
+	border: none;
+}
+	
+.shop .panel-footer .btn:focus {
+  outline: none;
+}
+
+
+.shop .form-control{
+		color: rgb(162,162,162);
+}
+
+
+/*Connect with us page*/
+
+/* Set the well element backgrond to red */
+.connect .well.well-lg{
+	background-color: rgb(238, 66, 38); border: none; margin-top: 60px; padding: 40px;
+	text-align: center; color: rgb(255,245,243);
+}
+
+.connect .jumbotron.container {
+  padding: 60px 120px;
+}
+
+/* Set the padding and a font size of the social media icons */
+.connect .well i.fa{
+	padding-left: 10px; padding-right: 10px; font-size: 20px;
+}
+
+
+.connect .jumbotron{
+	margin-top: 50px; 
+}
+
+.connect .jumbotron h2{
+	padding-bottom: 20px; letter-spacing: 3px;
+}
+
+.connect #accordion .panel-title a{
+	letter-spacing: 3px;
+} 
+.connect #accordion .pannel-body{
+	letter-spacing: 1px;
+}
+
+
+.connect .jumbotron{
+    border-radius: 0 !important; background-color: rgb(255,245,243); padding-left: 13px; padding-top: 1px;
+	padding-bottom: 1px; color: rgb(68,93,108); text-align: center;
+}
+
+
+.connect .panel-default>.panel-heading{ 
+	background-color: rgb(167,195,144); 
+	color: rgb(255,245,243);
+}
+
+.connect .panel-default>.panel-heading a{ 
+	text-decoration: none;
+}
+
+.connect .well a{
+	color: rgb(255,245,243)
+}
+
+
+
+
+/*Log in modal*/
+
+/* Set the full-width of the input fields in the Log in modal */
+#login_modal input[type=email], input[type=password]{
+  width: 100%;
+  padding: 5px 5px;
+  margin: 5px 0;
+  border: 1px solid rgb(68,93,108);
+}
+
+#login_modal #login_cont label{
+	letter-spacing: 2px;
+}
+
+/* Set a style for all buttons in the Login modal */
+#login_modal #login_cont button{
+  background-color: rgb(68,93,108);
+  color: rgb(255,255,255);
+  padding: 14px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px; letter-spacing: 2px;
+}
+
+#login_modal #login_cont button:hover{
+  background-color: rgb(68,93,108, 0.1);
+  color: rgb(68,93,108);
+
+}
+
+/* Set the width, padding and the background colour of the cancel button in the Login modal */
+#login_modal .cancelbtn{
+	width: auto;
+	padding: 10px 18px;
+	background-color: rgb(238,66,38);
+    border: none;
+	color: rgb(255,255,255);
+	cursor: pointer;
+	border-radius: 5px;  letter-spacing: 2px;
+}
+
+#login_modal .cancelbtn:hover{
+	background-color: rgb(238,66,38, 0.1);
+	color: rgb(238,66,38);
+}
+/* Center the image and position the close button in the Login modal*/
+#login_modal .imgcontainer{
+	text-align: center;
+	margin: 24px 0px 12px 0px;
+}
+
+/* Set the size of the logo in the login modal*/
+#login_modal img{
+	width: 30%; height: auto;
+	border-radius: 20%;
+}
+
+#login_modal .container-fluid{
+	padding: 16px;
+}
+
+#login_modal span.pass{
+	float: right;
+	padding-top: 16px;
+}
+
+/* The Modal (background) */
+#login_modal.modal{
+	display: none; /* Hidden by default */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgb(0,0,0,0.5); /* Black w/ opacity */
+	padding-top: 5px;
+}
+
+/* Modal Content/Box */
+#login_modal .modal-content{
+	background-color: rgb(254, 254, 254);
+	margin: 2% auto 2% auto; /* 2% from the top, 2% from the bottom */
+	border: 1px solid rgb(68,93,108);
+	width: 70%; 
+}
+
+/* The Close Button (x) */
+#login_modal .close{
+	position: absolute;
+	right: 15px;
+	top: 0;
+	font-size: 35px;
+	font-weight: bold;
+  	color: rgb(68,93,108);
+}
+
+#login_modal .close:hover, #login_modal .close:focus{
+	color: rgb(68,93,108);
+	cursor: pointer;
+}
+
+/* Add Zoom Animation */
+#login_modal .animate{
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom{
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom{
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Set the display for the Forgot Password option and Cancel button on small screens */
+@media screen and (max-width: 300px){
+span.pass{
+    display: block;
+    float: none;
+  }
+  #login_modal .cancelbtn{
+    width: 100%;
+  }
+}
+
+ #login_modal .container{
+	background-color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/*Register page*/
+
+/* Add the style for padding to container-fluid */
+.register h2{
+	padding: 50px !important; text-align: center;  color: rgb(255,255,255);
+	
+}
+
+/* Full-width input fields */
+.register#register .bg-1 input[type=text], .register#register .bg-1 input[type=password], .register input[type=email], 
+.register input[type=tel], .register input[type=number], .register#register .bg-1 select {
+  width: 100%;
+  padding-left: 5px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(255,255,255);
+
+}
+
+
+
+
+.register#register .bg-1 input[type=text]:focus,.register#register .bg-1 input[type=password]:focus, .register input[type=email]:focus, 
+.register input[type=tel]:focus, .register input[type=number]:focus, 
+.register select:focus, .register disabled:focus {
+  background-color: rgb(255,255,255);   
+  box-shadow: 1px 1px 1px 1px rgb(143, 209, 224) inset, 1px 1px 1px 1px rgb(143, 209, 224)
+}
+
+.register#register .bg-1 input[type=text]:hover,.register#register .bg-1 input[type=password]:hover, .register input[type=email]:hover, 
+.register input[type=tel]:hover, .register input[type=year]:hover, 
+.register#register .bg-1 select:hover, .register disabled:hover {
+  box-shadow: 1px 1px 1px 1px rgb(143, 209, 224) inset, 1px 1px 1px 1px rgb(143, 209, 224);
+}
+
+/* Set a style for the submit button */
+.register #reg_btn.btn.btn-default, .register #confirm_reg .btn.btn-default{
+  background-color: rgb(68,93,108); color: rgb(255,245,243);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+
+  opacity: 0.9; float: center;
+}
+
+/*.register #confirm_reg button{
+  background-color: rgb(68,93,108);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  display: inline-block; 
+}
+*/
+
+.register  .container-fluid #reg_btn.btn.btn-default:hover {
+  background-color: rgb(192, 207, 216);
+  color: rgb(68,93,108);
+}
+
+/* Add a blue text color to links */
+.register  a {
+  color: rgb(0, 89, 179);
+}
+
+.register .reg_checkbox label {
+	letter-spacing: 1px;
+}
+
+.register #reg_btn{
+	letter-spacing: 3px;
+}
+
+.register .reg_checkbox input[type=checkbox]{
+	height: 30px; width: 30px; 
+}
+
+
+
+
+.register .form-control{
+		color: rgb(162,162,162);
+}
+
+.register #confirm_reg{
+	float: center;
+	text-align: center;
+	width:100%;
+	margin-bottom: 100px;
+	letter-spacing: 1px;
+	display: none;
+	
+}
+
+.newsletter #confirm_subs{
+	
+	float: center;
+	text-align: center;
+	width:100%;
+	margin-bottom: 100px;
+	letter-spacing: 1px;
+	display: none;
+}
+
+/* About page*/
+
+.about .bg-5 p, .terms .bg-5 p, .privacy .bg-5 p{
+	letter-spacing: 0px; text-align: left; 
+}
+
+.about .bg-5, .terms .bg-5, .privacy .bg-5{
+	padding: 15px;
+}
+
+
+/*Newsletter page*/
+
+.newsletter form {
+  border: 5px solid rgb(255, 255, 255); 
+}
+
+.newsletter .newsletter_container .container-fluid {
+  padding: 20px;
+  background-color: rgb(255, 255, 255); 
+}
+
+.newsletter input[type=text], .newsletter input[type=email] {
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(68,93,108);
+  box-sizing: border-box;
+
+}
+
+.newsletter input[type=text]:hover, .newsletter input[type=email]:hover {
+  border-color: rgb(192, 207, 216);
+  color: rgb(68,93,108);
+}
+.newsletter input[type=submit] {
+  width: 30%; padding: 10px; margin: 8px 0; display: inline-block;
+  border: 1px solid rgb(68,93,108); /* dark grey */
+  box-sizing: border-box; background-color: rgb(68,93,108); /* dark grey */
+  color: rgb(255,255,255); border-radius: 5px;
+}
+
+
+.newsletter input[type=submit]:hover {
+  box-shadow: 1px 1px 1px 1px rgb(143, 209, 224) inset, 1px 1px 1px 1px rgb(143, 209, 224);
+}
+
+	
+/* Basket page */
+
+
+.basket .bg-5{ 
+    color: rgb(68,93,108); padding-top: 40px; padding-bottom: 10px; /* dark grey */
+	letter-spacing: 1px; background-color: rgb(255, 255, 255);
+}
+
+.basket .bg-7{ 
+    color: rgb(68,93,108); padding: 20px 5px 20px 5px; /* dark grey */
+	letter-spacing: 1px; background-color: rgb(255, 255, 255);
+}
+
+
+
+/* Set a style for the ContiPayPal button */
+
+
+/* Add a blue text color to links */
+.basket  a {
+  color: rgb(0, 89, 179);
+}
+
+.basket #reg_btn{
+	letter-spacing: 3px;
+}
+
+.basket span.price {
+  float: right;
+  color: rgb(68,93,108);
+}
+
+.basket #empty_basket, .basket #sum{
+	font-weight: bold;
+	text-align: center;
+}
+
+.basket .remove{
+	color: rgb(255, 255, 255); 
+	background-color: rgb(238, 66, 38);
+	border: none;
+}
+
+
+.basket #paypal-button-container{
+	display: none;
+}
+
+
+
+.basket .bg-8{
+	background-color: rgb(255, 255, 255);
+	color: rgb(68,93,108);
+	text-align: center;
+	font-size: 14px;
+}
+
+
+.cancel .bg-7 .btn {
+  background-color: rgb(68,93,108);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  display: inline-block; 
+}
+
+
+.report .bg-5,.report .bg-7 {
+	background-color: rgb(255, 255, 255);
+	color: rgb(68,93,108);
+	
+}
+
+.newsletter .bg-5{
+background-color: rgb(255, 255, 255);
+	color: rgb(68,93,108);
+}
